@@ -51,6 +51,7 @@ EXAMPLE:
     E6, E12 lub E24 --> [1.0, 1.2,... 820.0] -listing of a resistive series
     parajoint([1.2, 5.6, 2.2]) --> 0.682
     parajoint([1.2, 5.6, 2.2], 1) --> 9.0
+    parajointfind(1.3, [4.7, 15]) --> 2.042
 """
 import sys
 if sys.platform=='linux':
