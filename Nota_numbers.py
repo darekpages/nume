@@ -1,4 +1,4 @@
-#!/usr/bin/python3.10
+#!/usr/bin/env python3
 #------------------------------------------------------------
 # Script to generate a list of numbers in the range min .. max,
 # in terms of known units.
