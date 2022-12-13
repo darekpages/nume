@@ -1,4 +1,4 @@
-# nume.py    v.1.9  (Python 3.7, 3.10)
+# nume.py    v.1.9  (Python 3.7, or above)
 # Library for engineering calculations (with SI units) to simplify
 # calculations e.g. in electronics.
 # Copyright 2017-2022 (C) DAREKPAGES
