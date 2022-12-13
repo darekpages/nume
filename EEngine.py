@@ -84,41 +84,41 @@ class Number:
 
     def m(self):
         """Unit e-3 mili."""
-        return self.number*self.__mno__[10]
+        return self.number*self.__mno__[11]
 
     def u(self):
         """Unit e-6 micro."""
-        return self.number*self.__mno__[11]
+        return self.number*self.__mno__[12]
 
     def n(self):
         """Unit e-9 nano."""
-        return self.number*self.__mno__[12]
+        return self.number*self.__mno__[13]
 
     def p(self):
         """Unit e-12 pico."""
-        return self.number*self.__mno__[13]
+        return self.number*self.__mno__[14]
 
     def f(self):
         """Unit e-15 femto."""
-        return self.number*self.__mno__[14]
+        return self.number*self.__mno__[15]
 
     def a(self):
         """Unit e-18 atto."""
-        return self.number*self.__mno__[15]
+        return self.number*self.__mno__[16]
 
     def z(self):
         """Unit e-21 zepto."""
-        return self.number*self.__mno__[16]
+        return self.number*self.__mno__[17]
 
     def y(self):
         """Unit e-24 jokto."""
-        return self.number*self.__mno__[17]
+        return self.number*self.__mno__[18]
 
     def r(self):
         """Unit e-27 ronto."""
-        return self.number*self.__mno__[18]
+        return self.number*self.__mno__[19]
 
     def q(self):
         """Unit e-30 quecto."""
-        return self.number*self.__mno__[19]
+        return self.number*self.__mno__[20]
         
