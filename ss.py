@@ -1,4 +1,4 @@
-#!/usr/bin/python3.10
+#!/usr/bin/en python3
 #-----------------------------------------------------------
 # Script to specify the run or import path
 # modules during prototyping in the console or IDLE.
