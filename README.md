@@ -1,7 +1,7 @@
 # NUME
 **_Nume_ is module that allows easy calculations on engineering numbers used in electronics and
 other fields of science and engineering. You can calculate the full range of _quecto_ (_10e-30_) to
-_quetta_ (_10e + 30_), combined with the standard math module we get a powerful python calculation
+_quetta_ (_10e+30_), combined with the standard math module we get a powerful python calculation
 tool. The nume module, which is actually an electronics-focused calculator, can be used in your
 own scripts or in prototyping in the console, IDLE or other IDE.**
 
