@@ -1,4 +1,4 @@
-# EEngine.py      v.2.1 (Python 3.10)
+# EEngine.py      v.2.1 (Python 3.10 or above)
 # SI class of number that simplifies calculations, e.g. in electronics.
 # Copyright 2021 (C) DAREKPAGES
 # 2021-12-10 - 2021-12-15
