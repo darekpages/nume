@@ -45,7 +45,7 @@ or
 import nume*
 ```
 
-Calculation of current of esistor R1 of 5.1kΩ:
+Calculation of current of resistor R1 of 5.1kΩ:
 
 ```python
 v= 12         #voltage 12V
