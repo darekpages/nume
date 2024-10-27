@@ -1,4 +1,7 @@
 # NUME
+## Module that allows easy calculations on engineering numbers used in electronics and other fields of 
+science and engineering in terminal.
+
 **_Nume_ is module that allows easy calculations on engineering numbers used in electronics and
 other fields of science and engineering. You can calculate the full range of _quecto_ (_10e-30_) to
 _quetta_ (_10e+30_), combined with the standard math module we get a powerful python calculation
