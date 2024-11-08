@@ -1,7 +1,7 @@
 # nume.py    v.1.11  (Python 3.7, 3.10)
 # Library for engineering calculations (with SI units) to simplify
 # calculations e.g. in electronics.
-# Copyright 2017-2022 (C) DAREKPAGES
+# Copyright 2017-2024 (C) DAREKPAGES
 # 04.01.2017 - 08.11.2024
 #- -------------------------------------------------------------------
 # v.1.1 - I added a help displayed with the command >> help (e).
