@@ -1,4 +1,4 @@
-# nume.py    v.1.10  (Python 3.7, 3.10)
+# nume.py    v.1.11  (Python 3.7, 3.10)
 # Library for engineering calculations (with SI units) to simplify
 # calculations e.g. in electronics.
 # Copyright 2017-2022 (C) DAREKPAGES
@@ -21,6 +21,7 @@
 # nume is to be placed in /home/user/bin.
 # v.1.9 - I supplemented with additional resistance series E6, E48, E96.
 # v.1.10 -  I added four new number functions ronto, quecto, Ronna, Quetta.
+# v.1.11 - I extended the function input sci() to be compatible with unit().
 #--------------------------------------------------------------------
 """Engineering calculations with SI units.
 The library is an extension of the EEngine library.
@@ -45,6 +46,7 @@ EXAMPLE:
     m(500)/k(4.7) --> 0.00010638297872340425
     sci(2400) --> '2.4e+03'
     sci(0.00010638297872340425) --> '1.0638e-04'
+    sci(6.432, 'k') --> '6.432e+03'
     sci((6.432, 'k')) --> '6.432e+03'
     unit(6432) --> (6.432, 'k')
     valofrow(13) --> 12
@@ -202,14 +204,17 @@ def unit(number):
     unit(6400) --> (6.4, 'k')"""
     return EEngine.Number(number).unit()
 
-def sci(number):
+def sci(number, str_unit=''):
     """Converts a decimal or SI number to the scientific format:
     sci(6432) --> '6.432e+03'
+    sci(6.432, 'k') --> '6.432e+03'
     sci((6.432, 'k')) --> '6.432e+03'"""
     typ= type(number) is tuple
-    if typ!=True:
+    if (typ!=True) and (str_unit==''):
         return EEngine.Number(number).unit(sci= True)
-    else: 
+    else:
+        if str_unit!='':
+            number= (number, str_unit) 
         uni= number[1]  #unit number
         mul= EEngine.Number.__tj__.index(uni) #multiplier
         nNumb= number[0]*EEngine.Number.__mno__[mul] #regular number
