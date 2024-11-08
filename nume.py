@@ -2,7 +2,7 @@
 # Library for engineering calculations (with SI units) to simplify
 # calculations e.g. in electronics.
 # Copyright 2017-2022 (C) DAREKPAGES
-# 04.01.2017 - 13.12.2022
+# 04.01.2017 - 08.11.2024
 #- -------------------------------------------------------------------
 # v.1.1 - I added a help displayed with the command >> help (e).
 # v.1.2 - I added a parallel connection computation function: parajoint ().
